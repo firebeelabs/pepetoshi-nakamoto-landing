@@ -54,9 +54,9 @@ export const StyledPepetoshi = styled.div`
   }
 
   ${(props) => props.theme.breakpoints.down("xl")} {
-    width: 504px;
-    height: 576px;
-    bottom: -270px;
+    width: 726px;
+    height: 692px;
+    bottom: -400px;
   }
 `;
 

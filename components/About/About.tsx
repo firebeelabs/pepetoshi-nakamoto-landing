@@ -36,7 +36,7 @@ const About = () => {
       <Grid item xs={12} lg={3} xl={4}>
         <StyledImage>
           <Image
-            src="/images/about-pepetoshi-1.svg"
+            src="/images/about-pepetoshi-1.png"
             alt="Pepetoshi Nakamoto"
             fill
           />
@@ -88,14 +88,16 @@ const About = () => {
           ))}
         </Stack>
       </Grid>
-      <Grid item xs={12} lg={3} xl={4}>
-        <StyledImage>
-          <Image
-            src="/images/about-pepetoshi-2.svg"
-            alt="Pepetoshi Nakamoto"
-            fill
-          />
-        </StyledImage>
+      <Grid item xs={12} lg={3} xl={4} display="flex" justifyContent="flex-end">
+        <Box width="100%" height="100%">
+          <StyledImage>
+            <Image
+              src="/images/about-pepetoshi-2.png"
+              alt="Pepetoshi Nakamoto"
+              fill
+            />
+          </StyledImage>
+        </Box>
       </Grid>
     </Grid>
   );

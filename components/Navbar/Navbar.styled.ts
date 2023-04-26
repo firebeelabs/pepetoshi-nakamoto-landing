@@ -16,8 +16,12 @@ export const StyledToggleButton = styled(Button)`
   align-items: center;
   justify-content: center;
   color: white;
-  border-radius: 0;
+  border-radius: 0 !important;
   padding: 0 !important;
+
+  &:hover {
+    background: #0c3308 !important;
+  }
 
   .MuiSvgIcon-root {
     font-size: 20px;

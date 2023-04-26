@@ -35,7 +35,7 @@ const Hero = () => {
           </Typography>
           <StyledPepetoshi>
             <Image
-              src="/images/hero-pepetoshi.svg"
+              src="/images/hero-pepetoshi.png"
               alt="Pepetoshi Nakamoto"
               quality={100}
               fill
