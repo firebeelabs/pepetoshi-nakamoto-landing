@@ -45,14 +45,7 @@ const Tokenomics = () => {
       </Typography>
       <Grid container spacing={3}>
         {tokenomics.map((tokenomic, index) => (
-          <Grid
-            item
-            xs={12}
-            md={4}
-            lg={12 / 5}
-            key={`tokenomic-${index}`}
-            sx={{ height: "100%" }}
-          >
+          <Grid item xs={12} md={4} lg={12 / 5} key={`tokenomic-${index}`}>
             <Tokenomic tokenomic={tokenomic} />
           </Grid>
         ))}

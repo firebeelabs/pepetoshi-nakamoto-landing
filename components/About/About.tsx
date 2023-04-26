@@ -33,7 +33,7 @@ const About = () => {
 
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} lg={3}>
+      <Grid item xs={12} lg={3} xl={4}>
         <StyledImage>
           <Image
             src="/images/about-pepetoshi-1.svg"
@@ -42,7 +42,7 @@ const About = () => {
           />
         </StyledImage>
       </Grid>
-      <Grid item xs={12} lg={6}>
+      <Grid item xs={12} lg={6} xl={4}>
         <Typography variant="h3" color="white" textAlign="center">
           About
         </Typography>
@@ -88,7 +88,7 @@ const About = () => {
           ))}
         </Stack>
       </Grid>
-      <Grid item xs={12} lg={3}>
+      <Grid item xs={12} lg={3} xl={4}>
         <StyledImage>
           <Image
             src="/images/about-pepetoshi-2.svg"

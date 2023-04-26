@@ -18,8 +18,8 @@ const Utilities = () => {
         Utility and Use Cases
       </Typography>
       <Typography variant="h5" color="white" textAlign="center" mb={5}>
-        PepeToshi NakaM00N droppin' a $tack of moony use cases, <br /> got ya
-        froggin' out with that kek hype, lol!
+        PepeToshi NakaM00N droppin&apos; a $tack of moony use cases, <br /> got
+        ya froggin&apos; out with that kek hype, lol!
       </Typography>
       <Grid container spacing={3} sx={{ height: "100%" }}>
         {utils.map((utility, index) => (

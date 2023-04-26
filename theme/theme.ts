@@ -32,7 +32,7 @@ let theme = createTheme({
             backgroundColor: "#CAF861",
             color: "black",
             "&:hover": {
-              backgroundColor: "#CAF861",
+              backgroundColor: "#cff971",
             },
           },
         },

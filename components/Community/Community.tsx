@@ -21,7 +21,7 @@ const Community = () => {
         alt: "",
       },
       description:
-        "Compete in Pepe Run, our easy, multiplayer platform game and earn rewards #peperun",
+        "Pepetoshi-themed memes and fan art: Share your creations and make your fellow Pepetoshis laugh",
       color: "secondary" as "secondary",
     },
     {
@@ -30,7 +30,7 @@ const Community = () => {
         alt: "",
       },
       description:
-        "Compete in Pepe Run, our easy, multiplayer platform game and earn rewards #peperun",
+        "Contests: Participate in contests to win exciting prizes and PEPET tokens",
       color: "third" as "third",
     },
     {
@@ -39,14 +39,14 @@ const Community = () => {
         alt: "",
       },
       description:
-        "Compete in Pepe Run, our easy, multiplayer platform game and earn rewards #peperun",
+        "Platforms: Connect with us on Discord, Telegram, Reddit, and Twitter",
       color: "fourth" as "fourth",
     },
   ];
   return (
     <>
       <Typography variant="h2" color="primary.main" textAlign="center" mb={3}>
-        Community: The Pepetoshis's Finest
+        Community: The Pepetoshis&apos;s Finest
       </Typography>
       <Typography variant="h5" color="white" textAlign="center" mb={5}>
         Join our family and immerse yourself in a lively and supportive

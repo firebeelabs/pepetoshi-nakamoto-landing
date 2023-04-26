@@ -15,18 +15,18 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Section color="secondary">
+      <Section color="secondary" id="about">
         <About />
       </Section>
       <Section>
         <Preview />
       </Section>
 
-      <Section color="secondary">
+      <Section color="secondary" id="tokenomics">
         <Tokenomics />
         <Utilities />
       </Section>
-      <Section>
+      <Section id="community">
         <Community />
       </Section>
 

@@ -38,7 +38,8 @@ const Marketing = () => {
         Marketing and Partnerships
       </Typography>
       <Typography variant="h5" color="white" textAlign="center" mb={5}>
-        We're hopping into the world of collaborations with popular influencers,
+        We&apos;re hopping into the world of collaborations with popular
+        influencers,
         <br />
         meme creators, and other crypto projects:
       </Typography>

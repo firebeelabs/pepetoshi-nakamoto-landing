@@ -8,11 +8,15 @@ import Telegram from "./assets/telegram.svg";
 import Twitter from "./assets/twitter.svg";
 import Reddit from "./assets/reddit.svg";
 import Email from "./assets/email.svg";
+import Menu from "./assets/menu.svg";
+import Close from "./assets/close.svg";
 
 const createMaterialIcon = (Icon: ComponentType): typeof SvgIcon => {
   return createSvgIcon(createElement(Icon), Icon.displayName || "SVGIcon");
 };
 
+export const CloseIcon = createMaterialIcon(Close);
+export const MenuIcon = createMaterialIcon(Menu);
 export const UniswapIcon = createMaterialIcon(Uniswap);
 export const DextoolsIcon = createMaterialIcon(Dextools);
 export const EtherscanIcon = createMaterialIcon(Etherscan);

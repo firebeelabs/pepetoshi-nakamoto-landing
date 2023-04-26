@@ -22,9 +22,14 @@ const Information = () => {
   ];
 
   return (
-    <Grid container spacing={3}>
+    <Grid
+      container
+      columnSpacing={{ md: 3 }}
+      rowSpacing={{ xs: 3, md: 0 }}
+      sx={{ gridAutoRows: "1fr" }}
+    >
       {cards.map((card, index) => (
-        <Grid item xs={12} md={4} key={`card-${index}`} sx={{ height: "100%" }}>
+        <Grid item xs={12} md={4} key={`card-${index}`}>
           <Card card={card} />
         </Grid>
       ))}

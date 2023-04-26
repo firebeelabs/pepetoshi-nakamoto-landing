@@ -25,8 +25,15 @@ const Preview = () => {
       >
         the quickest and secure token airdrops, prizes, and NFT whitelist spots!
       </Typography>
-      <Typography variant="h2" color="primary.main" mb={3} textAlign="center">
-        We've got already developed GAME.
+      <Typography
+        variant="h2"
+        color="primary.main"
+        mb={3}
+        textAlign="center"
+        fontFamily="Rubik"
+        fontWeight={700}
+      >
+        We&apos;ve got already developed GAME.
       </Typography>
       <StyledImage>
         <Image src="/images/browser.png" alt="Browser" fill quality={100} />

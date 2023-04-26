@@ -29,7 +29,7 @@ const Contact = () => {
     },
   ];
   return (
-    <StyledContact>
+    <StyledContact id="contact">
       <Typography variant="h2" color="primary.main" textAlign="center" mb={3}>
         Contact Us
       </Typography>
