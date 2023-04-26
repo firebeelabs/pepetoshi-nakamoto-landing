@@ -11,3 +11,16 @@ export const StyledImage = styled.div`
     height: 100%;
   }
 `;
+
+export const StyledGame = styled.div`
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/0.6;
+  position: relative;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+`;

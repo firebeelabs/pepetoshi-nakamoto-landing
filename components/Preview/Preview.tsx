@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
-import { StyledImage } from "./Preview.styled";
+import { StyledGame, StyledImage } from "./Preview.styled";
 
 const Preview = () => {
   return (
@@ -35,9 +35,12 @@ const Preview = () => {
       >
         We already have the game developed
       </Typography>
-      <StyledImage>
+      <StyledGame>
+        <iframe src="/game/index.html" name="Pepetoshi Nakamoto"></iframe>
+      </StyledGame>
+      {/* <StyledImage>
         <Image src="/images/browser-2.png" alt="Browser" fill quality={100} />
-      </StyledImage>
+      </StyledImage> */}
     </>
   );
 };
