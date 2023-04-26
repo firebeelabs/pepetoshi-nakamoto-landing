@@ -10,6 +10,7 @@ const Tokenomics = () => {
       title: "Token symbol:",
       imageUrl: "/images/tokenomics-1.svg",
       heading1: "$PEPET",
+      description1: "decentralization, feels good man",
     },
     {
       title: "Initial supply:",
@@ -32,7 +33,7 @@ const Tokenomics = () => {
         "$PEPET tokens can be used for staking, NFT drop access, and exclusive access to Pepetoshi-themed events and merchandise",
     },
     {
-      title: "Lorem ipsum:",
+      title: "Burn:",
       imageUrl: "/images/tokenomics-5.svg",
       description1: "Burning rewards for community levels achievements",
     },
