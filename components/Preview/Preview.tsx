@@ -33,10 +33,10 @@ const Preview = () => {
         fontFamily="Rubik"
         fontWeight={700}
       >
-        We&apos;ve got already developed GAME.
+        We already have the game developed
       </Typography>
       <StyledImage>
-        <Image src="/images/browser.png" alt="Browser" fill quality={100} />
+        <Image src="/images/browser-2.png" alt="Browser" fill quality={100} />
       </StyledImage>
     </>
   );

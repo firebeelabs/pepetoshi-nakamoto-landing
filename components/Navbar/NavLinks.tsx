@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import { StyledNavLinks } from "./NavLinks.styled";
 import { Link } from "react-scroll";
+import { WHITEPAPER } from "@/constants/routes";
 
 interface NavLinksProps {
   onClose: () => void;
@@ -27,7 +28,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ onClose }) => {
     },
     {
       name: "Green paper",
-      href: "https://",
+      href: WHITEPAPER,
     },
   ];
 

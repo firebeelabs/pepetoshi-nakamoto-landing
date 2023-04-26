@@ -34,57 +34,46 @@ const Tokenomic: React.FC<TokenomicProps> = ({ tokenomic }) => {
         <Image src={imageUrl} alt={title} fill />
       </StyledImage>
 
-      <Grid container spacing={2} display="flex" alignItems="center">
+      <Grid
+        container
+        columnSpacing={2}
+        display="flex"
+        alignItems="center"
+        mt={4}
+      >
         {heading1 && (
-          <Grid item xs={12} md={description2 ? 4 : 12}>
+          <Grid item xs={12}>
             <Typography
               variant={description1 ? (description2 ? "h4" : "h5") : "h2"}
               color="primary.main"
-              mt={2}
-              textAlign={{
-                xs: "center",
-                md: description2 ? "right" : "center",
-              }}
+              textAlign="center"
             >
               {heading1}
             </Typography>
           </Grid>
         )}
         {description1 && (
-          <Grid item xs={12} md={description2 ? 8 : 12}>
-            <Typography
-              variant="body1"
-              color="white"
-              mt={1}
-              textAlign={{
-                xs: "center",
-                md: !description2 ? "center" : "left",
-              }}
-            >
+          <Grid item xs={12}>
+            <Typography variant="body1" color="white" mt={1} textAlign="center">
               {description1}
             </Typography>
           </Grid>
         )}
       </Grid>
       {description2 && heading2 && (
-        <Grid container spacing={2} mt={2}>
-          <Grid item xs={12} md={4}>
+        <Grid container columnSpacing={2} mt={1}>
+          <Grid item xs={12}>
             <Typography
               variant="h4"
               color="primary.main"
               mt={2}
-              textAlign={{ xs: "center", md: "right" }}
+              textAlign="center"
             >
               {heading2}
             </Typography>
           </Grid>
-          <Grid item xs={12} md={8}>
-            <Typography
-              variant="body1"
-              color="white"
-              mt={1}
-              textAlign={{ xs: "center", md: "left" }}
-            >
+          <Grid item xs={12}>
+            <Typography variant="body1" color="white" textAlign="center">
               {description2}
             </Typography>
           </Grid>
