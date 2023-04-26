@@ -41,28 +41,51 @@ export const StyledBackground = styled.div`
 export const StyledPepetoshi = styled.div`
   position: absolute;
   bottom: -430px;
-  left: calc(50% - 32px);
+  left: calc(50% - 16px);
   transform: translateX(-50%);
-  width: 726px;
-  height: 692px;
+  width: 621px;
+  height: 593px;
+  bottom: -500px;
   z-index: 3;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
   ${(props) => props.theme.breakpoints.down("md")} {
     width: 363px;
     height: 346px;
-    bottom: -270px;
-  }
-
-  ${(props) => props.theme.breakpoints.down("xl")} {
-    width: 726px;
-    height: 692px;
-    bottom: -400px;
+    bottom: -340px;
   }
 `;
 
+// export const StyledPepetoshi = styled.div`
+//   position: absolute;
+//   bottom: -430px;
+//   left: calc(50% - 32px);
+//   transform: translateX(-50%);
+//   width: 726px;
+//   height: 692px;
+//   z-index: 3;
+
+//   ${(props) => props.theme.breakpoints.down("md")} {
+//     width: 363px;
+//     height: 346px;
+//     bottom: -270px;
+//   }
+
+//   ${(props) => props.theme.breakpoints.down("xl")} {
+//     width: 331px;
+//     height: 339px;
+//     bottom: -300px;
+//     left: calc(50% - 150px);
+//   }
+// `;
+
 export const StyledContent = styled.div`
   padding-top: 64px;
-  padding-bottom: 256px;
+  padding-bottom: 200px;
 
   ${(props) => props.theme.breakpoints.down("md")} {
     padding: 24px 0 !important;
