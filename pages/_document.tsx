@@ -11,6 +11,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
       <body>
         <Main />
