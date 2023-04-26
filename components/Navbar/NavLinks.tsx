@@ -54,9 +54,11 @@ const NavLinks: React.FC<NavLinksProps> = ({ onClose }) => {
         );
       })}
       <li>
-        <Button variant="contained" color="primary" type="button">
-          Buy Token
-        </Button>
+        <Link to="about" smooth>
+          <Button variant="contained" color="primary" type="button">
+            Buy Token
+          </Button>
+        </Link>
       </li>
       <li>
         <Button variant="outlined" color="primary" type="button" disabled>
