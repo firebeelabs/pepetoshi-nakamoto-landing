@@ -2,7 +2,7 @@ export const DISCORD = "https://discord.com";
 export const TELEGRAM = "https://t.me/pepet_io";
 export const REDDIT = "https://www.reddit.com/";
 export const TWITTER = "https://twitter.com/pepet_io";
-export const EMAIL = "";
+export const EMAIL = "pepetoshinakamoto@gmail.com";
 
 export const UNISWAP = "/";
 export const DEXTOOLS = "/";

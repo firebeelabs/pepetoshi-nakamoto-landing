@@ -65,7 +65,12 @@ const Contact = () => {
               type="button"
               startIcon={link.icon}
               iconBackgroundColor={link.iconBackgroundColor}
-              onClick={() => window.open(link.href, "open")}
+              onClick={() =>
+                link.name === "Email"
+                  ? (window.location.href =
+                      "mailto:pepetoshinakamoto@gmail.com")
+                  : window.open(link.href, "open")
+              }
             >
               {link.name}
             </Button>
