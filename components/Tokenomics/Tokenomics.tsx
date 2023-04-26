@@ -42,7 +42,7 @@ const Tokenomics = () => {
   return (
     <StyledTokenomics>
       <Typography variant="h2" color="primary.main" mb={3} textAlign="center">
-        Tokenomics
+        Kekenomics
       </Typography>
       <Grid container spacing={3}>
         {tokenomics.map((tokenomic, index) => (

@@ -59,7 +59,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ onClose }) => {
         </Button>
       </li>
       <li>
-        <Button variant="outlined" color="primary" type="button">
+        <Button variant="outlined" color="primary" type="button" disabled>
           Connect Wallet
         </Button>
       </li>
