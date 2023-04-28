@@ -29,7 +29,7 @@ const MintToken = () => {
   };
 
   useEffect(() => {
-    if (isConnected) setLoadingWallet(false);
+    setLoadingWallet(false);
   }, [isConnected]);
 
   useEffect(() => {
