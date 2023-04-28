@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 import Button from "../Button/Button";
 import Menu from "@mui/material/Menu";
 
-export const StyledNavbar = styled.div`
-  padding: 32px 0;
+export const StyledNavbar = styled.div<{ withBg?: boolean }>`
+  padding: ${(props) => (props.withBg ? "32px 40px" : "32px 0")};
+  background: ${(props) => (props.withBg ? "#0b3108" : "transparent")};
 `;
 
 export const StyledToggleButton = styled(Button)`
