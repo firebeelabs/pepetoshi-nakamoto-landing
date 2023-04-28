@@ -11,4 +11,4 @@ export const ETHERSCAN =
   "https://etherscan.io/address/0x64d5ea3E86ac6E82d15D796d18d7cC33A50EC5a4";
 
 export const WHITEPAPER =
-  "https://drive.google.com/file/d/1MnZPtI1ptH1LwVK3fGzgMQ8CuTIL74i3/view";
+  "https://drive.google.com/file/d/1at6xlNhcX92FPsWzzC4uhJbMRpQkyGg_/view?usp=sharing";
