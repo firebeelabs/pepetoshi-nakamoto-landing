@@ -4,7 +4,13 @@ import { InjectedConnector } from "wagmi/connectors/injected";
 import Button from "../Button/Button";
 import ConnectedWalletModal from "./ConnectedWalletModal";
 
-const WalletConnection = () => {
+interface WalletConnectionProps {
+  buttonColor?: "secondary" | "primary";
+}
+
+const WalletConnection: React.FC<WalletConnectionProps> = ({
+  buttonColor = "primary",
+}) => {
   const { address, isConnected } = useAccount();
   const { connect } = useConnect({
     connector: new InjectedConnector(),
@@ -53,8 +59,8 @@ const WalletConnection = () => {
 
   return (
     <Button
-      variant="outlined"
-      color="primary"
+      variant={buttonColor === "secondary" ? "contained" : "outlined"}
+      color={buttonColor}
       type="button"
       onClick={handleClick}
     >

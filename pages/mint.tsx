@@ -7,6 +7,7 @@ import Container from "@/components/Container/Container";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Mint/Header";
 import MintToken from "@/components/Mint/MintToken";
+import About from "@/components/Mint/About";
 
 const MintPage = () => {
   return (
@@ -19,7 +20,7 @@ const MintPage = () => {
         <Navbar />
       </Box>
       <Container>
-        <Grid container columnSpacing={16} display="flex" alignItems="center">
+        <Grid container columnSpacing={8}>
           <Grid
             item
             xs={12}
@@ -31,6 +32,7 @@ const MintPage = () => {
           <Grid item xs={12} md={6}>
             <Header />
             <MintToken />
+            <About />
           </Grid>
         </Grid>
       </Container>

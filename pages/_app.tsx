@@ -5,11 +5,19 @@ import { Global } from "@emotion/react";
 import { globalStyles } from "@/theme/global-styles";
 import Head from "next/head";
 import { WagmiConfig, createClient } from "wagmi";
-import { getDefaultProvider } from "ethers";
+import { mainnet, goerli } from "wagmi/chains";
+import { configureChains } from "wagmi";
+import { alchemyProvider } from "wagmi/providers/alchemy";
+import blockchainConfig from "@/lib/blockchain/blockchain-config";
 
-const client = createClient({
+const { provider } = configureChains(
+  [mainnet, goerli],
+  [alchemyProvider({ apiKey: blockchainConfig.alchemyApiKey })]
+);
+
+export const client = createClient({
   autoConnect: true,
-  provider: getDefaultProvider(),
+  provider,
 });
 
 export default function App({ Component, pageProps }: AppProps) {

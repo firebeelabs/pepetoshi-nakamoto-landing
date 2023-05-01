@@ -34,6 +34,29 @@ let theme = createTheme({
             "&:hover": {
               backgroundColor: "#e2fbaa",
             },
+            "&:disabled": {
+              backgroundColor: "#CAF861",
+              color: "black",
+              opacity: 0.5,
+            },
+          },
+        },
+        {
+          props: {
+            variant: "contained" as "contained",
+            color: "secondary" as "secondary",
+          },
+          style: {
+            backgroundColor: "#092B06",
+            color: "white",
+            "&:hover": {
+              backgroundColor: "#11530c",
+            },
+            "&:disabled": {
+              backgroundColor: "#092B06",
+              color: "white",
+              opacity: 0.5,
+            },
           },
         },
         {

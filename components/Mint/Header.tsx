@@ -7,40 +7,37 @@ import { Box } from "@mui/material";
 
 const Header = () => {
   return (
-    <Box mb={3}>
+    <Box mb={4}>
       <Stack
         direction={{ xs: "column", md: "row" }}
         alignItems={{ md: "center" }}
         spacing={3}
       >
-        <StyledLogo>
-          <Image src="/images/pepet-token-1.png" alt="NFT" fill />
-        </StyledLogo>
+        <Box height={128} width={128}>
+          <StyledLogo>
+            <Image src="/images/pepet-token-1.png" alt="NFT" fill />
+          </StyledLogo>
+        </Box>
         <div>
           <Typography variant="h4" color="white">
-            CYBERPEPET
+            Pepe Rare&apos;s KEKmint Exclusive Pass
           </Typography>
-          <Stack direction="row" alignItems="center" spacing={1}>
-            <Typography variant="h6" color="rgba(255, 255, 255, 0.8)">
-              Minted:
-            </Typography>
-            <Typography variant="h6" color="white">
-              2/500
-            </Typography>
-          </Stack>
         </div>
       </Stack>
       <Typography
         variant="body1"
         color="white"
-        sx={{ opacity: 0.6 }}
+        sx={{ opacity: 0.8 }}
         component="p"
-        mt={2}
+        mt={4}
       >
-        Prepare for the ultimate meme adventure with Pepetoshi NFT Collection!
-        Discover 10,000 unique, utility-packed PFPs, each showcasing a dazzling
-        array of rare traits to elevate your digital presence. Embrace the
-        meme-sphere with Pepetoshi!
+        Introducing the Pepe Rare&apos;s KEKmint Exclusive Pass - a limited
+        edition NFT drop featuring an array of ultra-rare Pepe-themed
+        collectibles, each granting holders exclusive access to future NFT drops
+        from the Kek Mint Launchpad platform. This collection will be an
+        unforgettable fusion of art, humor, and utility, offering the perfect
+        blend of excitement and exclusivity that meme enthusiasts and NFT
+        collectors crave.
       </Typography>
     </Box>
   );
