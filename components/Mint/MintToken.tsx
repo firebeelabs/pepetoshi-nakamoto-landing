@@ -111,7 +111,7 @@ const MintToken = () => {
 
   useEffect(() => {
     if (maxSupplyData) setMaxSupply(Number(maxSupplyData));
-  }, []);
+  }, [maxSupplyData]);
 
   useEffect(() => {
     if (mintedToken) setOpenModal(true);
