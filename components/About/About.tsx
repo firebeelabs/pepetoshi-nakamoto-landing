@@ -11,12 +11,12 @@ import Box from "@mui/material/Box";
 
 const About = () => {
   const dexs = [
-    // {
-    //   name: "Uniswap",
-    //   href: ROUTES.UNISWAP,
-    //   icon: <UniswapIcon />,
-    //   iconBackgroundColor: "#FF007A",
-    // },
+    {
+      name: "Uniswap",
+      href: ROUTES.UNISWAP,
+      icon: <UniswapIcon />,
+      iconBackgroundColor: "#FF007A",
+    },
     {
       name: "Dextools",
       href: ROUTES.DEXTOOLS,
