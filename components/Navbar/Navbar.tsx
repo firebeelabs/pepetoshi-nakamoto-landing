@@ -9,6 +9,7 @@ import Image from "next/image";
 import NavLinks from "./NavLinks";
 import { Theme, useMediaQuery } from "@mui/material";
 import { CloseIcon, MenuIcon } from "@/theme/icons";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -27,8 +28,10 @@ const Navbar = () => {
     theme.breakpoints.down("md")
   );
 
+  const router = useRouter();
+
   return (
-    <StyledNavbar>
+    <StyledNavbar withBg={router.pathname !== "/"}>
       <Stack direction="row" alignItems="center" justifyContent="space-between">
         <Image
           src="/images/logo.svg"

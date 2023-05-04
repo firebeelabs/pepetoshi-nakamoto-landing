@@ -13,3 +13,5 @@ export const ETHERSCAN =
 
 export const WHITEPAPER =
   "https://drive.google.com/file/d/1at6xlNhcX92FPsWzzC4uhJbMRpQkyGg_/view?usp=sharing";
+
+export const MINT = "/mint";
