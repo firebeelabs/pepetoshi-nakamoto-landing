@@ -27,15 +27,6 @@ const Preview = () => {
   return (
     <>
       <Typography
-        variant="caption"
-        color="white"
-        textAlign="center"
-        component="p"
-        mb={1}
-      >
-        Get ready for the big tournament by practicing to become
-      </Typography>
-      <Typography
         variant="h4"
         color="white"
         textAlign="center"
@@ -43,7 +34,7 @@ const Preview = () => {
         fontFamily="Rubik"
         fontWeight={700}
       >
-        the quickest and secure token airdrops, prizes, and NFT whitelist spots!
+        The tournament is on!
       </Typography>
       <Typography
         variant="h2"
@@ -53,7 +44,8 @@ const Preview = () => {
         fontFamily="Rubik"
         fontWeight={700}
       >
-        We already have the game developed
+        Play the game, the best 20 times every 24 h will get the whitelist spot.
+        Pepe Run!
       </Typography>
       <StyledGame>
         <Unity unityProvider={unityProvider} />
