@@ -27,6 +27,16 @@ const Preview = () => {
   return (
     <>
       <Typography
+        variant="h5"
+        color="white"
+        textAlign="center"
+        mb={1}
+        fontFamily="Rubik"
+        fontWeight={700}
+      >
+        The tournament is on!
+      </Typography>
+      <Typography
         variant="h4"
         color="white"
         textAlign="center"
@@ -34,7 +44,9 @@ const Preview = () => {
         fontFamily="Rubik"
         fontWeight={700}
       >
-        The tournament is on!
+        Play the game, the best 10 times on each level will get whitelist spots
+        for our upcoming NFT mint. Every 24 h we will allocate the whitelist
+        spots. Pepe Run!
       </Typography>
       <Typography
         variant="h2"
@@ -44,8 +56,7 @@ const Preview = () => {
         fontFamily="Rubik"
         fontWeight={700}
       >
-        Play the game, the best 20 times every 24 h will get the whitelist spot.
-        Pepe Run!
+        Connect your wallet to start.
       </Typography>
       <StyledGame>
         <Unity unityProvider={unityProvider} />
