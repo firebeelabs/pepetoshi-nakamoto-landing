@@ -18,7 +18,7 @@ export const StyledGame = styled.div`
   aspect-ratio: 1/0.6;
   position: relative;
 
-  iframe {
+  canvas {
     width: 100%;
     height: 100%;
     border: 0;

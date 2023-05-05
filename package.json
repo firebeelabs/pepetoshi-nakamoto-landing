@@ -24,6 +24,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.9",
+    "react-unity-webgl": "^9.4.0",
     "typescript": "5.0.4",
     "wagmi": "^0.12.12"
   },

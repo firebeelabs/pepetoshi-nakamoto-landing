@@ -40,11 +40,11 @@ const NavLinks: React.FC<NavLinksProps> = ({ onClose }) => {
       href: WHITEPAPER,
       show: true,
     },
-    {
-      name: "PEPET/MINT",
-      href: MINT,
-      show: router.pathname === "/",
-    },
+    // {
+    //   name: "PEPET/MINT",
+    //   href: MINT,
+    //   show: router.pathname === "/",
+    // },
     {
       name: "Home page",
       href: "/",
