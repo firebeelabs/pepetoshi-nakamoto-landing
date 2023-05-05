@@ -4,15 +4,17 @@ import Image from "next/image";
 import { StyledGame, StyledImage } from "./Preview.styled";
 import { Unity, useUnityContext } from "react-unity-webgl";
 import { useAccount } from "wagmi";
+import { Box } from "@mui/material";
+import WalletConnection from "../WalletConnection/WalletConnection";
 
 const Preview = () => {
   const { address, isConnected } = useAccount();
 
   const { unityProvider, sendMessage, isLoaded } = useUnityContext({
     loaderUrl: "/game/Build/PepeProjectWebGL.loader.js",
-    dataUrl: "/game/Build/11b8212ba950cbec927accf3fa634d16.data",
-    frameworkUrl: "/game/Build/40e7c05e0b59a2b16e5862ee65e0c71d.js",
-    codeUrl: "/game/Build/36a6c0d6082b49f6d603987614573b7d.wasm",
+    dataUrl: "/game/Build/443829ec9875c66954f55f63112ae146.data",
+    frameworkUrl: "/game/Build/ed5fafcdc610d43faa6b3be7d5c454d5.js",
+    codeUrl: "/game/Build/691d2f85d5fa48b02c5371c2d735611d.wasm",
     streamingAssetsUrl: "/game/StreamingAssets",
     webglContextAttributes: {
       preserveDrawingBuffer: true,
@@ -58,6 +60,9 @@ const Preview = () => {
       >
         Connect your wallet to start.
       </Typography>
+      <Box display="flex" justifyContent="center" mb={4}>
+        <WalletConnection />
+      </Box>
       <StyledGame>
         <Unity unityProvider={unityProvider} />
       </StyledGame>
